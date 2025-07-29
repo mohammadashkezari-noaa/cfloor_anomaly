@@ -1,0 +1,27 @@
+name: anomaly
+channels:
+  # - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python==3.11
+  - numpy<2.0
+  # - pytorch>=2.0.0
+  # - torchvision
+  - proj
+  - gdal
+  - libgdal
+  - hdf5
+  - plotly
+  - dash
+  - dash-bootstrap-components
+  - pip
+  - pip:
+    - seaborn
+    - matplotlib
+    - scipy
+    - scikit-image
+    - pandas
+    - scikit-learn
+    - tqdm
+
